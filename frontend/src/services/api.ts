@@ -1,5 +1,4 @@
-const BASE_URL = "https://agenticbicopilot-production-6dd9.up.railway.app";
-
+const BASE_URL = "https://agenticbicopilot-production.up.railway.app";
 
 export const uploadFile = async (file: File) => {
   const formData = new FormData();
