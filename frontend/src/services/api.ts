@@ -1,4 +1,5 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const BASE_URL = "https://agenticbicopilot-production-6dd9.up.railway.app";
+
 
 export const uploadFile = async (file: File) => {
   const formData = new FormData();
